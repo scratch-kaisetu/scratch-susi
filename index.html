@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寿司注文アプリメニュー</title>
+    <style type="text/css">
+        h1 {
+            background-color: #7baef5;
+            border-radius: 5px;
+            width: 310px;
+            height: 40px;
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            line-height: 40px;
+            margin-bottom: 10px;
+        }
+
+        button{
+            background-color: #4d97ff; /* ボタンの背景色 */
+            color: #fff; /* テキストの色 */
+            padding: 10px 20px; /* パディングを調整してボタンのサイズを調整 */
+            border: none; /* ボーダーを削除 */
+            border-radius: 5px; /* ボーダーの角を丸くする */
+            cursor: pointer; /* マウスカーソルをポインターに変更 */
+        }
+
+        button:hover {
+            background-color: #70abfd; /* マウスオーバー時の背景色 */
+        }
+    </style>
+</head>
+<body>
+    <h1>寿司注文アプリメニュー</h1>
+    <p>端末に合わせて選択してください。</p>
+    <p>また、こちらから下はうまく動かない可能性があります。</p>
+    <button onclick="location.href='new-main.html'">購入端末</button>
+    <button onclick="location.href='scratch-susi-kanri.html'">管理端末</button>
+    <button onclick="location.href='scratch-susi-rezi.html'">レジ端末</button>
+    <p>旧購入・管理端末を使用する場合は購入端末でスペースキーを押してください。</p>
+    <button onclick="location.href='main.html'">旧購入・管理端末</button>
+</body>
+</html>
